@@ -22,14 +22,14 @@ randomArr.forEach((item, index, array) => {
 // которая будет содержать каждое значение массива из массива arr
 let arr = [10, 'октября', 2021, 'года'];
 
-for (let arrItem of arr ) {
+for (let arrItem of arr) {
 	console.log(arrItem);
 };
 
 // 4 вариант
 // Использование цикла FOR
 let arr = [10, 'октября', 2021, 'года'];
-for (let i=0; i < arr.length; i++) {
+for (let i = 0; i < arr.length; i++) {
 	console.log(arr[i]);
 }
 
