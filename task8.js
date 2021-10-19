@@ -18,7 +18,6 @@ for (let index in arrMap) {
 // 	console.log(`«Значение — ${arr[i]}»`)
 // }
 
-
 // 3 способ с помощью метода forEach
 // let arrMap = [1, 1, 2, 3, 5, 8, 13, 'Fibonacci'];
 
@@ -26,7 +25,7 @@ for (let index in arrMap) {
 // 	console.log(`«Ключ — ${index}, значение — ${item}  в массиве  ${array}»`);
 // });
 
-// 4 стрелочная функция
+// 4 способ стрелочная функция
 // let arrMap = [1, 1, 2, 3, 5, 8, 13, 'Fibonacci'];
 
 // arrMap.forEach((item, index, array) => {
