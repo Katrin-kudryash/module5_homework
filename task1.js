@@ -18,3 +18,27 @@ if (typeof (value) === 'number') {
 		alert("Число " + value + " нечетное!");
 	}
 }
+
+
+// 2 способ
+
+
+// let x = prompt('Введите значение X');
+
+// switch(typeof x) {
+// 	case 'number': 
+// 		alert(x + ' - число');
+// 		break;
+
+// 	case 'string': 
+// 		alert(x + ' - строка');
+// 		break;
+
+// 	case 'boolean': 
+// 		alert(x + ' - логический тип');
+// 		break;
+
+// 	default:
+// 		alert(x + ' - тип не определен');
+// } 
+// ????????? не корректно опред тип
